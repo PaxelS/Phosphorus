@@ -1,8 +1,8 @@
-package net.paxel.grassrevampmod;
+package net.paxel.phosphorus;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class grassRevampModClient implements ClientModInitializer {
+public class PhosphorusClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 
