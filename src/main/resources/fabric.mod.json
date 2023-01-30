@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "tutorialmod",
+  "id": "grassrevampmod",
   "version": "${version}",
 
-  "name": "Tutorial Mod",
-  "description": "Making grass great again",
+  "name": "Photo Grass",
+  "description": "WIP",
   "authors": [
     "Paxel"
   ],
@@ -19,14 +19,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.paxel.tutorialmod.TutorialMod"
+      "net.paxel.grassrevampmod.grassRevampMod"
     ],
     "client": [
-      "net.paxel.tutorialmod.TutorialModClient"
+      "net.paxel.grassrevampmod.grassRevampModClient"
     ]
   },
   "mixins": [
-    "tutorialmod.mixins.json"
+    "grassrevampmod.mixins.json"
   ],
 
   "depends": {

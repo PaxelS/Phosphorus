@@ -1,18 +1,15 @@
-package net.paxel.tutorialmod;
+package net.paxel.grassrevampmod;
 
 import net.fabricmc.api.ModInitializer;
-import net.paxel.tutorialmod.Items.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class TutorialMod implements ModInitializer {
-	public static final String MOD_ID = "tutorialmod";
+public class grassRevampMod implements ModInitializer {
+	public static final String MOD_ID = "grassRevampMod";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
-
 
 	@Override
 	public void onInitialize() {
-		ModItems.registerModItem();
-
+		LOGGER.info("mod" + MOD_ID + " initialized");
 	}
 }

@@ -1,8 +1,8 @@
-package net.paxel.tutorialmod;
+package net.paxel.grassrevampmod;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class TutorialModClient implements ClientModInitializer {
+public class grassRevampModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 
