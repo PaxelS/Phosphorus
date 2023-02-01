@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "grassrevampmod",
+  "id": "phosphorus",
   "version": "${version}",
 
-  "name": "Photo Grass",
+  "name": "Phosphorus",
   "description": "WIP",
   "authors": [
     "Paxel"
@@ -19,14 +19,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.paxel.grassrevampmod.grassRevampMod"
+      "net.paxel.phosphorus.Phosphorus"
     ],
     "client": [
-      "net.paxel.grassrevampmod.grassRevampModClient"
+      "net.paxel.phosphorus.PhosphorusClient"
     ]
   },
   "mixins": [
-    "grassrevampmod.mixins.json"
+    "phosphorus.mixins.json"
   ],
 
   "depends": {
